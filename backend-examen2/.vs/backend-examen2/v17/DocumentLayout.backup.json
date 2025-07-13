@@ -3,32 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\purchasecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\purchasecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\infrastructure\\currencyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\infrastructure\\currencyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\deductcurrencycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\deductcurrencycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\api\\drinkscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\api\\drinkscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\dtos\\deductcurrencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\dtos\\deductcurrencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\ideductcurrencycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\ideductcurrencycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\decreasestockdrinkcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\decreasestockdrinkcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\igetdrinksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\igetdrinksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\idecreasestockdrinkcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\idecreasestockdrinkcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\dtos\\decreasestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\dtos\\decreasestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\infrastructure\\drinkinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\infrastructure\\drinkinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\updatedrinkstockcommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\updatedrinkstockcommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\deductcurrencycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\deductcurrencycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\domain\\purchaseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\domain\\purchaseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\domain\\purchaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\domain\\purchaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\api\\drinkscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\api\\drinkscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\domain\\changeresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\domain\\changeresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\changecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\changecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\ipurchasecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\ipurchasecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\infrastructure\\currencyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\infrastructure\\currencyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\iupdatedrinkstockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,8 +75,12 @@
       "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\getdrinksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\infrastructure\\drinkinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\infrastructure\\drinkinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\ideductcurrencycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\ideductcurrencycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|c:\\users\\usuario\\documents\\reposinge\\examen2_c28330\\backend-examen2\\backend-examen2\\application\\igetdrinksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DE6473-3549-4E06-BA02-ABD646D120A3}|backend-examen2\\backend-examen2.csproj|solutionrelative:backend-examen2\\application\\igetdrinksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,111 +98,215 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Program.cs",
-              "RelativeDocumentMoniker": "backend-examen2\\Program.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Program.cs",
-              "RelativeToolTip": "backend-examen2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:58:27.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DeductCurrencyDTO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DTOs\\DeductCurrencyDTO.cs",
-              "RelativeDocumentMoniker": "backend-examen2\\Application\\DTOs\\DeductCurrencyDTO.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DTOs\\DeductCurrencyDTO.cs",
-              "RelativeToolTip": "backend-examen2\\Application\\DTOs\\DeductCurrencyDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IDecreaseStockDrinkCommand.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IDecreaseStockDrinkCommand.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\IDecreaseStockDrinkCommand.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IDecreaseStockDrinkCommand.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\IDecreaseStockDrinkCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:48:03.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeductCurrencyCommand.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DeductCurrencyCommand.cs",
-              "RelativeDocumentMoniker": "backend-examen2\\Application\\DeductCurrencyCommand.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DeductCurrencyCommand.cs",
-              "RelativeToolTip": "backend-examen2\\Application\\DeductCurrencyCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:46:25.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IGetDrinksQuery.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IGetDrinksQuery.cs",
-              "RelativeDocumentMoniker": "backend-examen2\\Application\\IGetDrinksQuery.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IGetDrinksQuery.cs",
-              "RelativeToolTip": "backend-examen2\\Application\\IGetDrinksQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:45:36.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDeductCurrencyCommand.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IDeductCurrencyCommand.cs",
-              "RelativeDocumentMoniker": "backend-examen2\\Application\\IDeductCurrencyCommand.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IDeductCurrencyCommand.cs",
-              "RelativeToolTip": "backend-examen2\\Application\\IDeductCurrencyCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:44:45.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUpdateDrinkStockCommand.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IUpdateDrinkStockCommand.cs",
-              "RelativeDocumentMoniker": "backend-examen2\\Application\\IUpdateDrinkStockCommand.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IUpdateDrinkStockCommand.cs",
-              "RelativeToolTip": "backend-examen2\\Application\\IUpdateDrinkStockCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:43:33.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CurrencyInventory.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Infrastructure\\CurrencyInventory.cs",
-              "RelativeDocumentMoniker": "backend-examen2\\Infrastructure\\CurrencyInventory.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Infrastructure\\CurrencyInventory.cs",
-              "RelativeToolTip": "backend-examen2\\Infrastructure\\CurrencyInventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:08:59.967Z",
+              "WhenOpened": "2025-07-13T01:03:54.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DecreaseStockDrinkCommand.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DecreaseStockDrinkCommand.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\DecreaseStockDrinkCommand.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DecreaseStockDrinkCommand.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\DecreaseStockDrinkCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T01:03:37.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DrinksController .cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\API\\DrinksController .cs",
               "RelativeDocumentMoniker": "backend-examen2\\API\\DrinksController .cs",
               "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\API\\DrinksController .cs",
               "RelativeToolTip": "backend-examen2\\API\\DrinksController .cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T23:51:54.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PurchaseResult.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Domain\\PurchaseResult.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Domain\\PurchaseResult.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Domain\\PurchaseResult.cs",
+              "RelativeToolTip": "backend-examen2\\Domain\\PurchaseResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T00:24:37.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PurchaseCommand.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\PurchaseCommand.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\PurchaseCommand.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\PurchaseCommand.cs*",
+              "RelativeToolTip": "backend-examen2\\Application\\PurchaseCommand.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T00:33:29.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Program.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Program.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Program.cs",
+              "RelativeToolTip": "backend-examen2\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:58:27.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeductCurrencyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DTOs\\DeductCurrencyDTO.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\DTOs\\DeductCurrencyDTO.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DTOs\\DeductCurrencyDTO.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\DTOs\\DeductCurrencyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:48:03.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PurchaseRequest.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Domain\\PurchaseRequest.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Domain\\PurchaseRequest.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Domain\\PurchaseRequest.cs",
+              "RelativeToolTip": "backend-examen2\\Domain\\PurchaseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T00:07:55.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DecreaseStockDTO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DTOs\\DecreaseStockDTO.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\DTOs\\DecreaseStockDTO.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DTOs\\DecreaseStockDTO.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\DTOs\\DecreaseStockDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T01:03:12.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangeResult.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Domain\\ChangeResult.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Domain\\ChangeResult.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Domain\\ChangeResult.cs",
+              "RelativeToolTip": "backend-examen2\\Domain\\ChangeResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T00:38:53.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "DeductCurrencyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DeductCurrencyCommand.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\DeductCurrencyCommand.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\DeductCurrencyCommand.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\DeductCurrencyCommand.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:46:25.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateDrinkStockCommand .cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\UpdateDrinkStockCommand .cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\UpdateDrinkStockCommand .cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\UpdateDrinkStockCommand .cs",
+              "RelativeToolTip": "backend-examen2\\Application\\UpdateDrinkStockCommand .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T00:24:33.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DrinkInventory.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Infrastructure\\DrinkInventory.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Infrastructure\\DrinkInventory.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Infrastructure\\DrinkInventory.cs",
+              "RelativeToolTip": "backend-examen2\\Infrastructure\\DrinkInventory.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:36:50.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPurchaseCommand.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IPurchaseCommand.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\IPurchaseCommand.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IPurchaseCommand.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\IPurchaseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T00:33:05.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChangeCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\ChangeCalculator.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\ChangeCalculator.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\ChangeCalculator.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\ChangeCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T00:34:34.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CurrencyInventory.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Infrastructure\\CurrencyInventory.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Infrastructure\\CurrencyInventory.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Infrastructure\\CurrencyInventory.cs",
+              "RelativeToolTip": "backend-examen2\\Infrastructure\\CurrencyInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:08:59.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "GetDrinksQuery.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\GetDrinksQuery.cs",
               "RelativeDocumentMoniker": "backend-examen2\\Application\\GetDrinksQuery.cs",
@@ -175,15 +319,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DrinkInventory.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Infrastructure\\DrinkInventory.cs",
-              "RelativeDocumentMoniker": "backend-examen2\\Infrastructure\\DrinkInventory.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Infrastructure\\DrinkInventory.cs",
-              "RelativeToolTip": "backend-examen2\\Infrastructure\\DrinkInventory.cs",
+              "DocumentIndex": 16,
+              "Title": "IUpdateDrinkStockCommand.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IUpdateDrinkStockCommand.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\IUpdateDrinkStockCommand.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IUpdateDrinkStockCommand.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\IUpdateDrinkStockCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:36:50.268Z",
+              "WhenOpened": "2025-07-12T23:43:33.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGetDrinksQuery.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IGetDrinksQuery.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\IGetDrinksQuery.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IGetDrinksQuery.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\IGetDrinksQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:45:36.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDeductCurrencyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IDeductCurrencyCommand.cs",
+              "RelativeDocumentMoniker": "backend-examen2\\Application\\IDeductCurrencyCommand.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\ReposInge\\Examen2_C28330\\backend-examen2\\backend-examen2\\Application\\IDeductCurrencyCommand.cs",
+              "RelativeToolTip": "backend-examen2\\Application\\IDeductCurrencyCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:44:45.617Z",
               "EditorCaption": ""
             }
           ]

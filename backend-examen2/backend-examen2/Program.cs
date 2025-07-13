@@ -1,5 +1,7 @@
+using System.Text.Json;
 using Application;
 using Infrastructure;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +22,13 @@ builder.Services.AddSingleton<CurrencyInventory>();
 builder.Services.AddScoped<Application.IGetDrinksQuery, Application.GetDrinksQuery>();
 builder.Services.AddScoped<IUpdateDrinkStockCommand, UpdateDrinkStockCommand>();
 builder.Services.AddScoped<IDeductCurrencyCommand, DeductCurrencyCommand>();
+builder.Services.AddScoped<IProcessPurchaseCommand, ProcessPurchaseCommand>();
+builder.Services.AddScoped<IDecreaseStockDrinkCommand, DecreaseStockDrinkCommand>();
 
+builder.Services.Configure<JsonOptions>(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

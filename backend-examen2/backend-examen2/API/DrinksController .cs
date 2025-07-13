@@ -1,5 +1,6 @@
 ﻿using Application;
 using Application.DTOs;
+using Domain;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
@@ -10,13 +11,16 @@ public class DrinksController : ControllerBase
 {
     private readonly IGetDrinksQuery _getDrinksQuery;
     private readonly IDeductCurrencyCommand _deductCurrencyCommand;
+    private readonly IProcessPurchaseCommand _processPurchaseCommand;
 
     public DrinksController(
         IGetDrinksQuery getDrinksQuery,
-        IDeductCurrencyCommand deductCurrencyCommand)
+        IDeductCurrencyCommand deductCurrencyCommand,
+        IProcessPurchaseCommand processPurchaseCommand)
     {
         _getDrinksQuery = getDrinksQuery;
         _deductCurrencyCommand = deductCurrencyCommand;
+        _processPurchaseCommand = processPurchaseCommand;
     }
 
     [HttpGet]
@@ -26,17 +30,21 @@ public class DrinksController : ControllerBase
         return Ok(drinks);
     }
 
-    [HttpPost("deduct-currency")]
-    public IActionResult DeductCurrency([FromBody] DeductCurrencyDTO dto)
+    [HttpPost("purchase")]
+    public IActionResult Purchase([FromBody] PurchaseRequest request)
     {
         try
         {
-            _deductCurrencyCommand.Handle(dto);
-            return Ok(new { message = "Monedas deducidas correctamente." });
+            var result = _processPurchaseCommand.Handle(request);
+
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
         }
-        catch (InvalidOperationException ex)
+        catch (Exception ex)
         {
-            return BadRequest(new { error = ex.Message });
+            return StatusCode(500, $"Internal error: {ex.Message}");
         }
     }
 }

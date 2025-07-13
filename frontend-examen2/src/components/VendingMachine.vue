@@ -4,7 +4,6 @@
       <h1 class="text-center pixel-title mb-5">Máquina Expendedora</h1>
 
       <div class="main-content">
-        <!-- Lista de refrescos a la izquierda -->
         <div class="grid-vending">
           <div
             v-for="(drink, index) in drinks"
@@ -58,9 +57,25 @@
             <h3>Total: ₡{{ totalCost }}</h3>
           </div>
         </div>
+                <!-- Botón de comprar -->
+        <div class="buy-button-container" style="margin-top: 1rem; text-align: center;">
+        <button class="money-btn" @click="purchase">Comprar</button>
+        </div>
       </div>
-                      <!-- Dinero insertado -->
+        <!-- Dinero insertado -->
         <div class="money-input">
+        <div v-if="showChangeAlert && purchaseResult?.change" class="change-alert">
+        <h4>¡Compra exitosa!</h4>
+        <p>Tu cambio: ₡{{ purchaseResult.change.totalChange }}</p>
+
+        <ul>
+            <li v-for="unit in purchaseResult.change.breakdown" :key="unit.value">
+            ₡{{ unit.value }} x {{ unit.quantity }}
+            </li>
+        </ul>
+
+        <button @click="showChangeAlert = false" class="btn-close-alert">Cerrar</button>
+        </div>
         <h2 class="pixel-title">Ingresar Dinero</h2>
         <div class="money-buttons">
             <button
@@ -98,28 +113,32 @@ import api from '../api'
 const drinks = ref([])
 const selectedQuantities = ref([])
 const errors = ref([])
+const purchaseResult = ref(null)
+const showChangeAlert = ref(false)
 
-onMounted(async () => {
+const imageMap = {
+  'Coca Cola': '/assets/pixel/coca.png',
+  'Pepsi': '/assets/pixel/pepsi.png',
+  'Fanta': '/assets/pixel/fanta.png',
+  'Sprite': '/assets/pixel/sprite.png'
+}
+
+// Extraemos la carga de bebidas en esta función para reutilizarla
+async function loadDrinks() {
   const { data } = await api.get('/drinks')
-
-  const imageMap = {
-    'Coca Cola': '/assets/pixel/coca.png',
-    'Pepsi': '/assets/pixel/pepsi.png',
-    'Fanta': '/assets/pixel/fanta.png',
-    'Sprite': '/assets/pixel/sprite.png'
-  }
-
   drinks.value = data.map(d => ({
     ...d,
     image: imageMap[d.name] ?? '/assets/pixel/default.png'
   }))
-
   selectedQuantities.value = drinks.value.map(() => 0)
   errors.value = drinks.value.map(() => '')
+}
+
+onMounted(() => {
+  loadDrinks()
 })
 
 const allowedDenominations = [1000, 500, 100, 50, 25]
-
 const insertedMoney = ref([])
 
 const insertCurrency = (value) => {
@@ -141,6 +160,38 @@ const removeCurrency = (value) => {
 const insertedTotal = computed(() =>
   insertedMoney.value.reduce((acc, unit) => acc + unit.value * unit.quantity, 0)
 )
+
+const purchase = async () => {
+  if (cartItems.value.length === 0 || insertedMoney.value.length === 0) {
+    alert('Debe seleccionar al menos un refresco e ingresar dinero.')
+    return
+  }
+
+  const payload = {
+    selectedDrinks: cartItems.value.map(item => ({
+      drinkName: item.name,
+      quantity: item.quantity
+    })),
+    insertedMoney: insertedMoney.value
+  }
+
+  try {
+    const response = await api.post('/drinks/purchase', payload)
+    purchaseResult.value = response.data
+    showChangeAlert.value = true
+    alert(response.data.message || "Compra realizada con éxito.")
+
+    // Limpiar cantidades y dinero insertado
+    selectedQuantities.value = drinks.value.map(() => 0)
+    insertedMoney.value = []
+
+    // Recargar el inventario actualizado
+    await loadDrinks()
+  } catch (error) {
+    const msg = error.response?.data?.message || "Ocurrió un error durante la compra."
+    alert(msg)
+  }
+}
 
 function validateQuantity(index) {
   if (selectedQuantities.value[index] > drinks.value[index].quantity) {
@@ -179,6 +230,7 @@ const totalCost = computed(() => {
   return cartItems.value.reduce((acc, item) => acc + item.price * item.quantity, 0)
 })
 </script>
+
 
 <style scoped>
 .contenido-overlay {
@@ -227,6 +279,25 @@ const totalCost = computed(() => {
 
 .slot-info {
   margin-top: 0.5rem;
+}
+
+.change-alert {
+  background-color: #dfffe0;
+  border: 2px solid #4caf50;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  color: #2e7d32;
+}
+
+.btn-close-alert {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border-radius: 6px;
 }
 
 .drink-image {
@@ -352,5 +423,22 @@ body {
   padding-left: 1rem;
   list-style: none;
   font-size: 14px;
+
+}
+
+.buy-button-container button {
+  background-color: #ff5c5c;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px #444;
+}
+
+.buy-button-container button:hover {
+  background-color: #e04e4e;
 }
 </style>
