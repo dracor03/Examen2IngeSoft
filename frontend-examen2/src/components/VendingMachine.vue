@@ -59,6 +59,34 @@
           </div>
         </div>
       </div>
+                      <!-- Dinero insertado -->
+        <div class="money-input">
+        <h2 class="pixel-title">Ingresar Dinero</h2>
+        <div class="money-buttons">
+            <button
+            v-for="unit in allowedDenominations"
+            :key="unit"
+            @click="insertCurrency(unit)"
+            class="money-btn"
+            >
+            ₡{{ unit }}
+            </button>
+        </div>
+
+        <div class="inserted-money-list">
+            <p v-if="insertedMoney.length === 0">No has insertado dinero.</p>
+            <ul v-else>
+            <li v-for="unit in insertedMoney" :key="unit.value">
+                ₡{{ unit.value }} x {{ unit.quantity }}
+                <button @click="removeCurrency(unit.value)" class="btn-remove">x</button>
+            </li>
+            </ul>
+        </div>
+
+        <div class="total-container">
+            <h3>Total ingresado: ₡{{ insertedTotal }}</h3>
+        </div>
+        </div>
     </div>
   </div>
 </template>
@@ -89,6 +117,30 @@ onMounted(async () => {
   selectedQuantities.value = drinks.value.map(() => 0)
   errors.value = drinks.value.map(() => '')
 })
+
+const allowedDenominations = [1000, 500, 100, 50, 25]
+
+const insertedMoney = ref([])
+
+const insertCurrency = (value) => {
+  const existing = insertedMoney.value.find(u => u.value === value)
+  if (existing) {
+    existing.quantity += 1
+  } else {
+    insertedMoney.value.push({ value, quantity: 1 })
+  }
+}
+
+const removeCurrency = (value) => {
+  const index = insertedMoney.value.findIndex(u => u.value === value)
+  if (index !== -1) {
+    insertedMoney.value.splice(index, 1)
+  }
+}
+
+const insertedTotal = computed(() =>
+  insertedMoney.value.reduce((acc, unit) => acc + unit.value * unit.quantity, 0)
+)
 
 function validateQuantity(index) {
   if (selectedQuantities.value[index] > drinks.value[index].quantity) {
@@ -263,5 +315,42 @@ body {
   color: var(--color-primary);
   font-weight: bold;
   font-size: 1.25rem;
+}
+
+.money-input {
+  margin-top: 1rem;
+  background-color: rgba(144, 238, 144, 0.2);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: inset 0 0 8px #00000033;
+}
+
+.money-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.money-btn {
+  background-color: #78c850;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 2px 2px #444;
+}
+
+.money-btn:hover {
+  background-color: #66aa44;
+}
+
+.inserted-money-list ul {
+  padding-left: 1rem;
+  list-style: none;
+  font-size: 14px;
 }
 </style>

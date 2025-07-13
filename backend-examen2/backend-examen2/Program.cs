@@ -1,4 +1,5 @@
 using Application;
+using Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,8 +16,10 @@ builder.Services.AddCors(options =>
 
 // Add services to the container.
 builder.Services.AddSingleton<Infrastructure.DrinkInventory>();
+builder.Services.AddSingleton<CurrencyInventory>();
 builder.Services.AddScoped<Application.IGetDrinksQuery, Application.GetDrinksQuery>();
 builder.Services.AddScoped<IUpdateDrinkStockCommand, UpdateDrinkStockCommand>();
+builder.Services.AddScoped<IDeductCurrencyCommand, DeductCurrencyCommand>();
 
 
 builder.Services.AddControllers();
